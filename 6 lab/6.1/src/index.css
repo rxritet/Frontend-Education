@@ -1,0 +1,192 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f4f6f8;
+  color: #1a1a2e;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 2rem;
+  background: #1a1a2e;
+}
+
+.nav-brand {
+  color: #fff;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.nav-link {
+  color: #aab4c8;
+  text-decoration: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background: #2d2d4e;
+}
+
+.nav-link.active {
+  color: #fff;
+  background: #c6284e;
+  font-weight: 600;
+}
+
+/* Layout */
+.main-content {
+  flex: 1;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1a1a2e;
+  color: #a0aab8;
+  font-size: 0.85rem;
+}
+
+/* Pages */
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.page h1 {
+  font-size: 2rem;
+}
+
+.hero-page {
+  padding-top: 3rem;
+  gap: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.hero-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.55rem 1.3rem;
+  background: #c6284e;
+  color: #fff;
+  border: 2px solid #c6284e;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #c7334f;
+  border-color: #c7334f;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #c6284e;
+}
+
+.btn-outline:hover {
+  background: #c6284e;
+  color: #fff;
+}
+
+/* Course list */
+.course-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.course-item {
+  padding: 1rem 1.2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+}
+
+.course-item a {
+  color: #1a1a2e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.course-item a:hover {
+  color: #e94560;
+}
+
+.instructor {
+  color: #666;
+  font-size: 0.88rem;
+}
+
+/* Sort button */
+.sort-btn {
+  align-self: flex-start;
+}
+
+/* CourseDetail */
+.back-link {
+  color: #e94560;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.route-info {
+  color: #999;
+  font-size: 0.82rem;
+  font-style: italic;
+}
+
+/* 404 */
+.not-found {
+  align-items: center;
+  text-align: center;
+  padding-top: 5rem;
+  gap: 1.5rem;
+}
+
+.not-found h1 {
+  font-size: 3rem;
+  color: #e94560;
+}
