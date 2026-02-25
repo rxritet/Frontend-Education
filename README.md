@@ -15,29 +15,30 @@
 
 ```text
 Frontend-Education/
-├── 1 lab/          # Lab 04 — Event Handling & Reusable Components
-│   ├── task-1/     # RegistrationForm + TypeScript generics
-│   ├── task-2/     # ArticleManager + Render Props
+├── 1 lab/          
+│   ├── task-1/     
+│   ├── task-2/     
 │   └── AIREPORT.md
-├── 2 lab/          # Lab 02 — React Basics
-│   ├── task1/      # JSX, fragments, key prop
-│   ├── task2/      # Props, children, dynamic rendering
+├── 2 lab/          
+│   ├── task1/      
+│   ├── task2/      
 │   └── AI_REPORT.md
-├── 3 lab/          # Lab 03 — JavaScript Design Patterns
-│   ├── 1 task/     # Function analysis + Pattern documentation
-│   ├── 2 task/     # Module Pattern (IIFE, Revealing, ES6)
+├── 3 lab/         
+│   ├── 1 task/    
+│   ├── 2 task/     
 │   └── AI_RERPORT.md
 ├── 4 lab/
 │   ├── task1/
-│   └── task2/
-├── 5 lab/          # Lab 05 — Vite Project Setup
+│   ├── task2/
+│   └── AI_RERPORT.md
+├── 5 lab/          
 │   ├── src/
 │   ├── public/
 │   ├── package.json
 │   └── vite.config.ts
-├── 6 lab/          # Lab 06 — React Router v6
-│   ├── 6.1/        # createBrowserRouter + RouterProvider + Layout
-│   ├── 6.2/        # Nested routes + Outlet + NavLink + loader
+├── 6 lab/          
+│   ├── 6.1/       
+│   ├── 6.2/        
 │   └── AI_REPORT.md
 └── README.md
 ```
