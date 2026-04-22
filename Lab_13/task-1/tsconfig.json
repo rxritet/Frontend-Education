@@ -8,8 +8,7 @@
     "noEmit": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "types": ["react", "react-native"]
+    "esModuleInterop": true
   },
   "include": ["App.tsx", "src/**/*.ts", "src/**/*.tsx"]
 }

@@ -9,11 +9,11 @@ interface Article {
 }
 
 interface ArticleListProps {
-  articles: Article[];
+  articles: readonly Article[];
   onClickRemove: (id: number) => void;
 }
 
-function ArticleList({ articles, onClickRemove }: ArticleListProps) {
+function ArticleList({ articles, onClickRemove }: Readonly<ArticleListProps>) {
   return (
     <ul style={{ listStyle: "none", padding: 0 }}>
       {articles.map((article) => (

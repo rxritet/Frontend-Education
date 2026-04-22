@@ -12,7 +12,7 @@ interface ArticleItemProps {
   onClickRemove: (id: number) => void;
 }
 
-function ArticleItem({ article, onClickRemove }: ArticleItemProps) {
+function ArticleItem({ article, onClickRemove }: Readonly<ArticleItemProps>) {
   // Local state for expansion — ArticleItem manages its own display
   const [isOpened, setIsOpened] = useState<boolean>(false);
 

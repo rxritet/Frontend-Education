@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { ChangeEvent, FormEvent } from "react";
+import type { ChangeEvent, SyntheticEvent } from "react";
 
 // Validation functions — каждая возвращает строку ошибки или пустую строку
 function validateName(name: string): string {
@@ -59,7 +59,7 @@ function RegistrationForm() {
   };
 
   // Task 3: Form Submission with preventDefault
-  const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
+  const handleSubmit = (e: SyntheticEvent<HTMLFormElement>): void => {
     // Prevent default browser form submission (Ch. 4, "Using synthetic event objects")
     e.preventDefault();
 

@@ -18,7 +18,7 @@ function AddArticle({
   onChangeTitle,
   onChangeSummary,
   onClickAdd,
-}: AddArticleProps) {
+}: Readonly<AddArticleProps>) {
   return (
     <section>
       <h1>{name}</h1>
